@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    background: url('../img/backgroundwebp.jpg');
+}
+
+.card {
+    width: 400px;
+    margin: 30px auto;
+    padding: 20px;
+
+    background-color: rgb(22 58 103 / 60%);
+    box-shadow: 0 5px 10px gray;
+    border-radius: 10px;
+}
+
+.card-foto {
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.card-title {
+    font-size: 30px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.card-text {
+    font-size: 20px;
+    color: rgb(0, 204, 255);
+    text-align: center;
+}
+
+.card-subtitle {
+    font-size: 20px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.card-list {
+    font-size: 16px;
+    color: rgb(0, 229, 255);
+    padding-left: 0;
+    list-style-position: inside;  
+}
